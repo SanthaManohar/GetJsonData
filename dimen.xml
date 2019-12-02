@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="place">17dp</dimen>
+    <dimen name="description">12dp</dimen>
+    <dimen name="besttime">15dp</dimen>
+    <dimen name="airport">13dp</dimen>
+    <dimen name="railwaystation">13dp</dimen>
+</resources>
