@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/list_row_bg_hover"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/list_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3dp"
+        android:divider="@color/list_row_divider"
+        android:background="@drawable/list_row_bg"></ListView>
+    <Button
+        android:id="@+id/richestmanlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Richest Man"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@null"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
