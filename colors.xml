@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="place">#f9f7f7</color>
+    <color name="description">#000</color>
+    <color name="besttime">#10510a</color>
+    <color name="airport">#2123ae</color>
+    <color name="railwaystation">#ea150a</color>
+
+    <color name="list_row_start_color">#fcfbfb</color>
+    <color name="list_row_end_color">#ec0d0d</color>
+
+    <color name="list_row_start_color_hover">#24dc08</color>
+    <color name="list_row_end_color_hover">#faf9f9</color>
+
+    <color name="list_row_divider">#f40a0a</color>
+
+</resources>
