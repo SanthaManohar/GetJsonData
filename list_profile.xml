@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/list_row_bg_hover">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"></com.android.volley.toolbox.NetworkImageView>
+    <TextView
+        android:id="@+id/place_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/place"
+        android:padding="3dp"
+        android:textColor="@color/place"
+        android:layout_below="@id/thumbnail"/>
+    <TextView
+        android:id="@+id/description_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/description"
+        android:textStyle="bold"
+        android:textColor="@color/description"
+        android:layout_below="@id/place_id"/>
+    <TextView
+        android:id="@+id/besttime_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/besttime"
+        android:textColor="@color/besttime"
+        android:layout_below="@id/description_id"/>
+    <TextView
+        android:id="@+id/airport_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/airport"
+        android:textStyle="bold"
+        android:textColor="@color/airport"
+        android:layout_below="@+id/besttime_id"/>
+    <TextView
+        android:id="@+id/railwaystation_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/railwaystation"
+        android:textColor="@color/railwaystation"
+        android:layout_below="@id/airport_id"/>
+
+</RelativeLayout>
